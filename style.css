@@ -1,0 +1,36 @@
+h1 {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg);
+ font-size: 150px;
+ font-weight: bold;
+ color: khaki;
+ text-align: center;
+ font-family: 'Roboto Condensed', sans-serif; ;
+ }
+ 
+ #brush {
+   font-family: 'Roboto Condensed', sans-serif;;
+   font-size: 32px;
+   font-weight: bold; 
+   color: white;
+   background-color: #44a7c4;
+}
+ 
+ .price {
+     font-family: 'Roboto Condensed', sans-serif;;
+     color: #016699;
+     font-weight: bold;
+   }
+ 
+ h1, h2, h3, p {
+   font-family: 'Roboto Condensed', sans-serif;;
+ }
+ 
+ #frame {
+   background-color: #63fba9;
+     color: white
+ }
+ 
+ #paint {
+   background-color: #eccd16;
+   color: white;
+ }
