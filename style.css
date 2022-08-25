@@ -11,10 +11,12 @@ body {
   background-color: darksalmon;
 }
 
+/* Header */
 li {
   float: left;
 }
 
+/* Header */
 li a {
   display: block;
   color: white;
@@ -23,9 +25,9 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color to khaki on hover */
 li a:hover {
-  background-color: #111;
+  color: rgb(240, 230, 140);;
 }
 
 
@@ -33,7 +35,7 @@ h1 {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg);
  font-size: 150px;
  font-weight: bold;
- color: khaki;
+ color: rgb(240, 230, 140);
  text-align: center;
  font-family: 'Roboto Condensed', sans-serif; ;
  }
@@ -73,3 +75,24 @@ h1 {
    color: white;
    margin-top: auto;
  }
+
+ a {
+  color: var(--mainColor);
+  text-decoration: none;
+}
+
+a:hover {
+  color: khaki;
+  -webkit-text-stroke: 2px var(--mainColor);
+}
+
+@supports not(-webkit-text-stroke: 2px red) {
+  a:hover {
+    text-shadow:
+      3px 3px 0 var(--mainColor),
+      -1px -1px 0 var(--mainColor),
+      1px -1px 0 var(--mainColor),
+      -1px 1px 0 var(--mainColor),
+      1px 1px 0 var(--mainColor);
+  }
+}
